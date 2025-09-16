@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Школа дракона — программирование для будущего</title>
+  <meta name="description" content="Python, C#, HTML, CSS, Blender — учим создавать игры, сайты и 3D-мир." />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="styles.css" />
+
+  <!-- Analytics Placeholders -->
+  <!-- Google Analytics -->
+  <!--
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-XXXXXXXXXX');
+  </script>
+  -->
+
+  <!-- Yandex.Metrika counter -->
+  <!--
+  <script type="text/javascript" >
+    (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+    m[i].l=1*new Date();
+    for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+    k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+    (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+    ym(00000000, "init", {
+          clickmap:true,
+          trackLinks:true,
+          accurateTrackBounce:true
+    });
+  </script>
+  <noscript><div><img src="https://mc.yandex.ru/watch/00000000" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+  -->
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#top" class="logo" aria-label="Школа дракона">
+        <span class="logo-icon" aria-hidden="true">🐉</span>
+        <span class="logo-text">Школа дракона</span>
+      </a>
+
+      <nav class="nav" aria-label="Главное меню">
+        <button class="nav-toggle" aria-expanded="false" aria-controls="primary-menu" aria-label="Меню">
+          <span class="nav-toggle-bar"></span>
+          <span class="nav-toggle-bar"></span>
+          <span class="nav-toggle-bar"></span>
+        </button>
+        <ul id="primary-menu" class="nav-list">
+          <li><a href="#courses">Курсы</a></li>
+          <li><a href="#about">О школе</a></li>
+          <li><a href="#testimonials">Отзывы</a></li>
+          <li><a href="#contacts">Контакты</a></li>
+        </ul>
+      </nav>
+
+      <a class="btn btn-accent header-cta" href="#apply">Записаться</a>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="section hero" aria-labelledby="hero-title">
+      <div class="hero-bg" aria-hidden="true"></div>
+      <div class="container hero-inner">
+        <h1 id="hero-title">Школа дракона — программирование для будущего</h1>
+        <p class="hero-subtitle">Python, C#, HTML, CSS, Blender — учим создавать игры, сайты и 3D-мир.</p>
+        <div class="hero-cta">
+          <a class="btn btn-primary" href="#apply">Начать обучение</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section about">
+      <div class="container two-col">
+        <div class="col text">
+          <h2>О школе</h2>
+          <p>Мы учим программированию через практику и творчество. Наша команда наставников — специалисты из IT, которые помогают создавать реальные проекты и прокачивать навыки шаг за шагом.</p>
+          <p class="mission">Миссия: «Учим программированию через практику и творчество».</p>
+        </div>
+        <div class="col media" aria-hidden="true">
+          <div class="teachers-grid">
+            <div class="avatar" title="Преподаватель 1"></div>
+            <div class="avatar" title="Преподаватель 2"></div>
+            <div class="avatar" title="Преподаватель 3"></div>
+            <div class="avatar" title="Преподаватель 4"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="courses" class="section courses">
+      <div class="container">
+        <h2>Курсы</h2>
+        <div class="cards">
+          <article class="card">
+            <h3>Python</h3>
+            <p>Изучаем основы и создаём проекты: игры, боты, утилиты.</p>
+            <a class="btn btn-outline" href="#apply">Узнать больше</a>
+          </article>
+          <article class="card">
+            <h3>C#</h3>
+            <p>Погружение в C# и основы разработки игр и приложений.</p>
+            <a class="btn btn-outline" href="#apply">Узнать больше</a>
+          </article>
+          <article class="card">
+            <h3>HTML/CSS</h3>
+            <p>Верстаем современные сайты и разбираем адаптивный дизайн.</p>
+            <a class="btn btn-outline" href="#apply">Узнать больше</a>
+          </article>
+          <article class="card">
+            <h3>Blender</h3>
+            <p>Создаём 3D-модели и анимации для игр и визуализации.</p>
+            <a class="btn btn-outline" href="#apply">Узнать больше</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section benefits">
+      <div class="container">
+        <h2>Преимущества</h2>
+        <ul class="benefits-list">
+          <li>Учим с нуля</li>
+          <li>Много практики</li>
+          <li>Наставники из IT</li>
+          <li>Реальные проекты</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="testimonials" class="section testimonials">
+      <div class="container">
+        <h2>Отзывы</h2>
+        <div class="testimonials-grid">
+          <figure class="testimonial">
+            <div class="avatar small" aria-hidden="true"></div>
+            <blockquote>Крутая школа! За пару месяцев собрал свою первую игру на Python.</blockquote>
+            <figcaption>Артём</figcaption>
+          </figure>
+          <figure class="testimonial">
+            <div class="avatar small" aria-hidden="true"></div>
+            <blockquote>Очень нравятся практические задания и поддержка наставников.</blockquote>
+            <figcaption>Катя</figcaption>
+          </figure>
+          <figure class="testimonial">
+            <div class="avatar small" aria-hidden="true"></div>
+            <blockquote>Прокачал навыки HTML/CSS и сделал портфолио.</blockquote>
+            <figcaption>Илья</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section id="apply" class="section form-section" aria-labelledby="form-title">
+      <div class="container">
+        <h2 id="form-title">Оставить заявку</h2>
+        <p>Заполните форму, и мы свяжемся с вами.</p>
+        <div class="form-embed">
+          <!-- Updated Google Form URL -->
+          <iframe
+            title="Форма обратной связи"
+            src="https://docs.google.com/forms/d/e/1FAIpQLSdvV6Mmpx00ID9PHi6N-AvzQY2TTPEZGC7HYdIMOzt-l96Sww/viewform?embedded=true"
+            width="100%"
+            height="900"
+            frameborder="0"
+            marginheight="0"
+            marginwidth="0"
+            loading="lazy"
+            >Загрузка…</iframe>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="contacts" class="site-footer">
+    <div class="container footer-inner">
+      <div class="contacts">
+        <h3>Контакты</h3>
+        <ul>
+          <li>Telegram: <a href="https://t.me/Kiesen01" target="_blank" rel="noopener">@Kiesen01</a></li>
+        </ul>
+      </div>
+      <div class="copyright">© «Школа дракона», 2025</div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html> 
